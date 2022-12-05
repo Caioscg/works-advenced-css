@@ -8,7 +8,39 @@
     font-size: 62.5%;
     --ff-header: 'Epilogue', sans-serif;
     
-    --hue: 250;  /*! key to change layout color */
+    --hue: 270;  /*! key to change layout color */
+    --bg-primary: hsl(var(--hue), 22%, 20%);
+    --fc-primary: hsl(var(--hue), 0%, 100%);
+    --fc-secondary: hsl(var(--hue), 50%, 80%);
+    --fc-secondary-dark: hsl(var(--hue), 100%, 11%);
+}
+
+body.green {
+    --hue: 150;
+    --bg-primary: hsl(var(--hue), 22%, 20%);
+    --fc-primary: hsl(var(--hue), 0%, 100%);
+    --fc-secondary: hsl(var(--hue), 50%, 80%);
+    --fc-secondary-dark: hsl(var(--hue), 100%, 11%);
+}
+
+body.red {
+    --hue: 350;
+    --bg-primary: hsl(var(--hue), 22%, 20%);
+    --fc-primary: hsl(var(--hue), 0%, 100%);
+    --fc-secondary: hsl(var(--hue), 50%, 80%);
+    --fc-secondary-dark: hsl(var(--hue), 100%, 11%);
+}
+
+body.yellow {
+    --hue: 420;
+    --bg-primary: hsl(var(--hue), 22%, 20%);
+    --fc-primary: hsl(var(--hue), 0%, 100%);
+    --fc-secondary: hsl(var(--hue), 50%, 80%);
+    --fc-secondary-dark: hsl(var(--hue), 100%, 11%);
+}
+
+body.blue {
+    --hue: 590;
     --bg-primary: hsl(var(--hue), 22%, 20%);
     --fc-primary: hsl(var(--hue), 0%, 100%);
     --fc-secondary: hsl(var(--hue), 50%, 80%);
