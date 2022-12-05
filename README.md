@@ -19,7 +19,7 @@ A basic development of a responsiveness and animated css layout website.
 
 <p align="center">
     <a href="https://works-advenced-css.vercel.app">
-        <img src="./.github/preview-desktop.jfif" alt="" width="100%">
+        <img src="./.github/preview.jfif" alt="" width="100%">
     </a>
 </p>
 
