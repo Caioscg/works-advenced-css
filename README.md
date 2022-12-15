@@ -26,7 +26,7 @@ A basic development of a responsiveness and animated css layout website.
 This project was developed with the following technologies:
 
 - HTML and CSS
-- JavaScript
+- Figma
 - Git and Github
 
 ## 💻 Project
