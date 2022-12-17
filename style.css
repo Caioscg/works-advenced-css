@@ -63,7 +63,7 @@ body {
 }
 
 header {
-    margin: 0,5rem auto 0;
+    margin: 0.5rem auto 0;
     font-family: var(--ff-header);
     text-align: center;
 
@@ -153,6 +153,69 @@ span {
     padding: 5px 1.6rem 1px;
 }
 
+.layout {
+    margin: 3rem;
+    animation: topdown 1s backwards;
+}
+
+.layout p {
+    animation: none;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    font-size: 2rem;
+}
+
+ul li {
+    cursor: pointer;
+    transition: all 1s;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+}
+
+#plus {
+    background-color: transparent;
+    font-size: 5rem;
+    color: white;
+
+    cursor: pointer;
+
+    animation: downtop 1s backwards;
+}
+
+#x {
+    font-family: 'Chivo Mono', monospace;
+
+    padding: .8rem auto;
+
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: all .5s;
+    border-radius: 5px;
+}
+
+#x:hover {
+    background-color: #da1212;
+}
+
+.hide {
+    display: none;
+}
+
 @keyframes topdown {
     0% {
         opacity: 0;
@@ -185,6 +248,10 @@ span {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .layout p {
+        margin-left: 5rem;
     }
 }
 

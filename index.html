@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componente Trabalhos</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap" rel="stylesheet">
 </head>
 <body class="green">
     
     <div class="page">
         <header>
-            <p>RECENTES</p>
-            <h1>Trabalhos</h1>
+            <div class="text">
+                <p>RECENTES</p>
+                <h1>Trabalhos</h1>
+            </div>
+
+            <span id="plus">+</span>
+
+            <div class="layout hide">
+                <p>Layout da página
+                    <span id="x">x</span>
+                </p>
+                <ul>
+                    <li id="green">🟢</li>
+                    <li id="blue">🔵</li>
+                    <li id="red">🔴</li>
+                    <li id="yellow">🟡</li>
+                </ul>
+            </div>
         </header>
     
         <main>
@@ -51,6 +69,8 @@
 
         </main>
     </div>
+
+    <script src="./main.js"></script>
 
 </body>
 </html>
